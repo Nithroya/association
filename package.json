@@ -1,0 +1,23 @@
+{
+  "name": "site-association",
+  "version": "1.0.0",
+  "description": "site asssociation Bise-bees",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithroya/association.git"
+  },
+  "author": "fabien Beyrie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nithroya/association/issues"
+  },
+  "homepage": "https://github.com/Nithroya/association#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "bootstrap-icons": "^1.5.0"
+  }
+}

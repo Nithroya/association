@@ -1,0 +1,58 @@
+
+//familly font
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+//font-family: 'Oswald', sans-serif;
+//font-family: 'Open Sans', sans-serif;
+
+
+// html body
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+}
+
+html, body{
+  height: 100%;
+}
+h1, h2, h3, p {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+// header
+.head {
+  background: url(../images/AbeilleXL.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+// footer
+
+#credit {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+// Couleurs Bootstrap
+$theme-colors: (
+  'orange': #ffa600,
+  'jaune' : #fff3da,
+  'beige' : #fffbf5,
+  'noir'  : #000,
+  'gris'  : #555555
+);
+
+         
+
+// média Quéry
+@media all and (max-width: 600px) {
+ .head { width: 100%; }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
