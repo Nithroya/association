@@ -16,12 +16,29 @@
 html, body{
   height: 100%;
 }
-h1, h2, h3, p {
+h1, h2, h3, .card p {
   text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+h4 {
+  font-size: 1rem;
 }
 
 li {
   list-style: none;
+}
+
+.liens {
+  text-decoration: none;
+  color: #000;
+}
+
+.liens:hover {
+  color: #ffa600;
 }
 // header
 .head {
@@ -29,6 +46,7 @@ li {
   background-size: cover;
   width: 100%;
 }
+
 
 // footer
 
@@ -41,10 +59,11 @@ li {
 
 // Couleurs Bootstrap
 $theme-colors: (
+  'marron': #94886c,
   'orange': #ffa600,
   'jaune' : #fff3da,
   'beige' : #fffbf5,
-  'noir'  : #000,
+  'noir'  : #1a1a1a,
   'gris'  : #555555
 );
 
@@ -53,6 +72,8 @@ $theme-colors: (
 // média Quéry
 @media all and (max-width: 600px) {
  .head { width: 100%; }
+ .card iframe { width: 100%; min-width: auto; height: auto;}		
+
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
