@@ -40,6 +40,11 @@ li {
 .liens:hover {
   color: #ffa600;
 }
+
+.card iframe{
+  width: 100%;
+}
+
 // header
 .head {
   background: url(../images/AbeilleXL.jpg) center no-repeat;
@@ -69,11 +74,13 @@ $theme-colors: (
 
          
 
-// média Quéry
+// média Queries
 @media all and (max-width: 600px) {
  .head { width: 100%; }
- .card iframe { width: 100%; min-width: auto; height: auto;}		
-
+ .card iframe { width: 100%; min-width: auto; min-height: auto;}		
 }
+
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
